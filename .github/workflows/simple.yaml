@@ -122,7 +122,7 @@ jobs:
         with:
           filename-beginning: ${{ github.event.repository.name }}
 
-      # Upload `.tar.gz` package as an artifact so it can be downloaded.
+      # Upload `.tar.gz` package as an artifact so it can be  downloaded.
       - name: Upload package build ⤴
         if: true
         uses: actions/upload-artifact@v4
